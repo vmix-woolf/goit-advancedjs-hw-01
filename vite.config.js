@@ -17,6 +17,7 @@ export default defineConfig(({ command }) => {
             [command === 'serve' ? 'global' : '_global']: {},
         },
         root: 'src',
+        base: mode === 'production' ? '/goit-advanced-hw-01/' : '/',
         build: {
             sourcemap: true,
             rollupOptions: {
