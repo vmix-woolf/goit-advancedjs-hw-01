@@ -12,4 +12,4 @@ import"./assets/styles-D9Y26Mde.js";import{S as c}from"./assets/vendor-g6-w1428.
             </a>
         </li>
     `}n.innerHTML=i;new c(".gallery a",{captionsData:"alt",captionDelay:250,close:!1,enableKeyboard:!0,docClose:!0,scrollZoom:!1,doubleTapZoom:!1});
-//# sourceMappingURL=1-gallery.js.map
+//# sourceMappingURL=gallery.js.map

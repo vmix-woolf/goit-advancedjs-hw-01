@@ -1,1 +1,1 @@
-{"version":3,"file":"index.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
+{"version":3,"file":"index.js","sources":["../src/index.js"],"sourcesContent":["import './css/styles.css';\n\nconsole.log('main.js is here');\n\n\n\n"],"names":[],"mappings":"oCAEA,QAAQ,IAAI,iBAAiB"}
