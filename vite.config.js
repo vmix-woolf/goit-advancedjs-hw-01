@@ -1,10 +1,3 @@
-// import { defineConfig } from 'vite'
-//
-// export default defineConfig(({ mode }) => ({
-//     base: mode === 'production' ? '/goit-advanced-hw-01/' : '/',
-// }))
-
-
 import { defineConfig } from 'vite';
 import { glob } from 'glob';
 import injectHTML from 'vite-plugin-html-inject';
