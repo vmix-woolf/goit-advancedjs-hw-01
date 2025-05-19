@@ -3,13 +3,12 @@ import injectHTML from 'vite-plugin-html-inject';
 import FullReload from 'vite-plugin-full-reload';
 import SortCss from 'postcss-sort-media-queries';
 
-export default defineConfig(({ command, mode }) => {
+export default defineConfig(({ command }) => {
     return {
         define: {
             [command === 'serve' ? 'global' : '_global']: {},
         },
         root: 'src',
-        base: mode === 'production' ? '/goit-advancedjs-hw-01/' : '/',
         build: {
             sourcemap: true,
             rollupOptions: {
