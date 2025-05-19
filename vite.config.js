@@ -1,5 +1,4 @@
 import { defineConfig } from 'vite';
-import { glob } from 'glob';
 import injectHTML from 'vite-plugin-html-inject';
 import FullReload from 'vite-plugin-full-reload';
 import SortCss from 'postcss-sort-media-queries';
@@ -10,7 +9,7 @@ export default defineConfig(({ command, mode }) => {
             [command === 'serve' ? 'global' : '_global']: {},
         },
         root: 'src',
-        base: mode === 'production' ? '/goit-advanced-hw-01/' : '/',
+        base: mode === 'production' ? '/goit-advancedjs-hw-01/' : '/',
         build: {
             sourcemap: true,
             rollupOptions: {
